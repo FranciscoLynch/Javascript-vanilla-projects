@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color:azure;
+    font-family: 'Lato', sans-serif;
+} 
+
+h2 {
+    text-align: center;
+}
+
+.salida {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 10%;
+    margin: 0 auto;
+} 
+
+.color-div {
+    text-align: center;
+    margin-top: 1rem;
+}
