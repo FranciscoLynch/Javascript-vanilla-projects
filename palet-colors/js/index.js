@@ -1,10 +1,7 @@
-const color = document.querySelector("#color");
-let outputValue = document.querySelector("#salida");
+color.value
 
+getColors();
+setColor();
 
-color.addEventListener("input", () => {
-    const colorSelected = color.value;
-    outputValue.innerHTML = colorSelected;
-    outputValue.style.background = colorSelected;
-    outputValue.style.color = "#fff"
-})
+color.addEventListener("input", setColor);
+

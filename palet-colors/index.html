@@ -9,15 +9,27 @@
     <link rel="stylesheet" href="./css/normalize.css">
        <!-- Icono -->
        <link rel="shortcut icon" href="./img/javascript.ico" type="image/x-icon">
-    <title>ColorPicker</title>
+       <title>ColorPicker</title>
+       <script src="./js/setColor.js"></script>
+       <script src="./js/getColors.js"></script>
+       <script src="./js/saveColor.js"></script>
 </head>
-<body>
+<body onload="setColor()">
     <h2>Paleta de color</h2>
     
     <div class="salida" id="salida">#ffffff</div>
+
     <div class="color-div">
-    <input type="color" name="color" id="color" value="#ffffff">
-</div>
-<script src="./js/index.js"></script>
+        <input type="color" name="color" id="color" value="#ffffff"/>
+        <button onclick="saveColor(color.value)">Save Color</button>
+    </div>
+
+    <div> 
+        <h2>Colores guardados: <span id="colorCounter">0</span></h2>
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="./js/var.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
