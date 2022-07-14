@@ -1,0 +1,9 @@
+body{ 
+    text-align: center;
+} 
+
+.card {
+    border: 2px solid black;
+    margin: 2rem 30rem;
+    background-color: antiquewhite;
+}

@@ -1,1 +1,1 @@
-Vanilla javascript projects to understand localStorage, babel, reactiviness,  
+Vanilla javascript projects to understand localStorage, bundle, reactiviness, getContext, fetch, axios, promises, async await and unit tests with jest.
